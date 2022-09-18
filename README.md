@@ -1,0 +1,2 @@
+# website-application
+This project is a website that talks about my interest in web development and the driving force or idea behind becoming a web developer as a new career path. This application discusses in details my journey through junior high school to post graduate studies detailing what I have achieved and what I will achieve in the near future. It's safe to say that this application can be call "The Mirror of My Life."
