@@ -30,45 +30,51 @@
   <body>
     <header>
       <!-- logo and hamburger -->
-      <div class="logo-container">
-        <button class="hamburger-btn">
-          <i class="fa-solid fa-bars"></i>
+      <div class="logo-container" class="nav-btn">
+        <button type="button" class="hamburger-btn nav-btn">
+          <i class="fa-solid fa-bars fa-3x"></i>
         </button>
-        <div>
+        <div class="image-container">
           <img src="/images/logo.jpeg" alt="" />
         </div>
       </div>
 
       <!-- first nav for smaller screens -->
-      <nav class="nav-one">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+      <!-- <div class="nav-overlay"></div> -->
+      <nav class="nav-one nav">
+        <div class="cancel">
+          <i id="close" class="fa-sharp fa-solid fa-xmark fa-2x"></i>
+        </div>
+        <ul class="">
+          <li class="nav-link"><a href="#">Home</a></li>
+          <li class="nav-link"><a href="#">About</a></li>
+          <li class="nav-link"><a href="#">Projects</a></li>
+          <li class="nav-link"><a href="#">Contact</a></li>
         </ul>
       </nav>
 
       <!-- second nav for bigger screens -->
-      <nav class="nav-two">
+      <!-- <!-- <nav class="nav-two">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Projects</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-      </nav>
+      </nav> -->
     </header>
 
     <!-- main container section -->
-    <section>
-      <h1>Onyeriri Victor Chinonso</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nulla
-        minus veniam accusantium placeat perferendis, veritatis in illo
-        necessitatibus sapiente? Ea a quos eligendi delectus nemo iure sit
-        temporibus odit.
-      </p>
+    <section class="main">
+      <div class="main-text">
+        <h1>Onyeriri Victor Chinonso</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nulla
+          minus veniam accusantium placeat perferendis, veritatis in illo
+          necessitatibus sapiente? Ea a quos eligendi delectus nemo iure sit
+          temporibus odit.
+        </p>
+      </div>
     </section>
 
     <!-- footer section -->
@@ -101,5 +107,6 @@
         </li>
       </ul>
     </footer>
+    <script src="/script/script.js"></script>
   </body>
 </html>
