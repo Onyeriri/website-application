@@ -1,0 +1,267 @@
+/* 
+google fonts used in this project
+font-family: 'Anton', sans-serif; h1
+font-family: 'Dosis', sans-serif; p
+font-family: 'Noto Serif', serif; h2
+ */
+
+/* css reset */
+* {
+  box-sizing: border-box;
+}
+
+body,
+html,
+div,
+blockquote,
+img,
+label,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+a,
+fieldset,
+input,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  /* border: 0; */
+  outline: none;
+}
+
+body {
+  position: relative;
+  line-height: 1.5em;
+  font-size: 88%;
+  text-align: justify;
+  background-image: url("/images/pexels-joyston-judah-933054.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  /* padding: 1em; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  padding: 0.6em 0;
+  text-transform: uppercase;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.floatLeft {
+  float: left;
+  padding: 0.5em 0.5em 0.5em 0;
+}
+
+.floatRight {
+  float: right;
+  padding: 0.5em 0 0.5em 0.5em;
+}
+
+/* css rules for html elements */
+header {
+  width: 100%;
+  /* background-color: green; */
+}
+
+.image-container {
+  width: 20%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.image-container img {
+  width: 40px;
+  height: 40px;
+  /* border: 3px solid #fff; */
+  border-radius: 50%;
+}
+
+.logo-container {
+  padding: 1em 0 0 0;
+}
+
+.logo-container {
+  width: 100%;
+  /* background-color: aqua; */
+  display: flex;
+}
+
+.hamburger-btn {
+  width: 20%;
+  background: none;
+  border: none;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+/* nav and overlay styling starts*/
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #052f5f;
+  transform: translateX(-100vw);
+  transition: transform 0.25s;
+}
+
+.nav-open {
+  transform: translateX(0);
+}
+
+.close-nav {
+  transform: translateX(-100vw);
+}
+
+.nav-link {
+  display: block;
+  font-size: 24px;
+  /* padding: 24px; */
+}
+
+.nav-link:not(:last-child) {
+  border-bottom: 1px solid #fff;
+}
+
+.nav-link:hover {
+  background-color: #ffffff;
+  color: #052f5f;
+}
+
+.nav-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(60, 134, 224, 0.7);
+}
+
+.nav-overlay-open {
+  display: block;
+}
+
+.nav-link a {
+  display: block;
+  padding: 24px;
+  color: #fff;
+}
+
+.nav-link > a:hover {
+  color: #052f5f;
+}
+
+.cancel {
+  display: flex;
+  margin: 0 auto;
+  padding: 1em 0 0 0;
+  justify-content: end;
+  width: 80%;
+}
+
+.cancel:hover {
+  color: red;
+}
+
+/* nav and overlay styling ends here */
+
+/* main section css starts*/
+.main {
+  width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.main-text {
+  text-align: center;
+  margin-top: 5em;
+}
+
+.main-text p {
+  text-align: justify;
+}
+/* main section css ends*/
+
+/* footer css rule start */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul {
+  width: 90%;
+  display: flex;
+  padding: 0.2em;
+  justify-content: space-between;
+}
+
+footer ul li a {
+  color: #fff;
+}
+
+/* footer css rule ends */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 550px) {
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
