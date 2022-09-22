@@ -43,7 +43,9 @@ td {
 }
 
 #home,
-#about-body {
+#about-body,
+#project-body,
+#contact-body {
   position: relative;
   line-height: 1.5em;
   font-size: 88%;
@@ -55,8 +57,8 @@ td {
   color: #fff;
   width: 100%;
 }
-
-#home {
+#home,
+#contact-body {
   height: 100vh;
 }
 
@@ -226,19 +228,40 @@ header {
   margin-top: 5em;
 }
 
+.main-text h1 {
+  font-family: "Anton", sans-serif;
+  letter-spacing: 0.3em;
+  font-weight: 300;
+}
+
+.main-text p a {
+  color: #fde12d;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
 .main-text p,
-.about-text p {
+.about-text p,
+.project-text p {
   text-align: justify;
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 0.2em;
+  margin-top: 0.5em;
+  font-size: 1em;
+  font-weight: 600;
 }
 /* main section css ends*/
 
 /* footer css rule start */
 .home-footer {
-  position: absolute;
-  bottom: 0;
+  margin-top: 1em;
+  padding-bottom: 0.5em;
 }
 .home-footer,
-.about-footer {
+.about-footer,
+.project-footer,
+.contact-footer {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -246,7 +269,9 @@ header {
 }
 
 .home-footer ul,
-.about-footer ul {
+.about-footer ul,
+.project-footer ul,
+.contact-footer ul {
   width: 90%;
   display: flex;
   padding: 0.2em;
@@ -254,12 +279,20 @@ header {
 }
 
 .home-footer ul li a,
-.about-footer ul li a {
+.about-footer ul li a,
+.project-footer ul li a,
+.contact-footer ul li a {
   color: #fff;
 }
+
+.home-footer {
+  position: absolute;
+  bottom: 0;
+}
 /* footer css rule ends */
-.about-footer {
-  margin: 0.5em 0 0 0;
+.about-footer,
+.project-footer {
+  margin: 0.3em 0;
   padding: 0.2em 0;
 }
 /* about page css rules starts here */
@@ -267,15 +300,76 @@ header {
   background-image: url("/images/pexels-miguel-á-padriñán-1111318.jpg");
 }
 
-.about-text {
+.about-text,
+.project-text {
   text-align: center;
   margin-top: 2em;
 }
 
-.about-text h2 {
+.about-text h2,
+.project-text h2 {
   text-align: initial;
 }
 /* about page css rules starts here */
+
+/* project page css rules starts here */
+#project-body {
+  background-image: url("/images/pexels-pixabay-289618.jpg");
+}
+
+.project-text ul {
+  text-align: initial;
+  display: block;
+}
+
+.project-text ul li a {
+  color: #fff;
+  padding: 1em 0;
+  display: block;
+}
+
+.project-text li {
+  display: block;
+}
+
+.project-text ul li a:hover {
+  background: #333745;
+  text-decoration: none;
+}
+/* project page css rules ends here */
+
+/* contact page css rules starts here */
+#contact-body {
+  background-image: url("/images/pexels-pixabay-269583.jpg");
+}
+
+.contact-main {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.contact-text {
+  margin-top: 45%;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.contact-footer ul li a,
+.contact-text {
+  color: #fff;
+  z-index: 3;
+  cursor: pointer;
+}
+
+#overlay {
+  z-index: -1;
+  position: fixed;
+  width: 90%;
+  height: 6em;
+  background: rgb(0, 0, 0, 0.6);
+  border-radius: 5em;
+}
+/* contact page css rules ends here */
 
 /* tooltips for downloading resume starts*/
 .tooltip {
