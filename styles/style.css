@@ -309,6 +309,10 @@ header {
 .about-text h2,
 .project-text h2 {
   text-align: initial;
+  font-size: 1em;
+  font-family: "Noto Serif", serif;
+  letter-spacing: 0.2em;
+  font-weight: 300;
 }
 /* about page css rules starts here */
 
