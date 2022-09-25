@@ -230,7 +230,7 @@ header {
 
 .main-text {
   text-align: center;
-  margin-top: 5em;
+  margin-top: 40%;
 }
 
 .main-text h1 {
@@ -370,13 +370,13 @@ header {
   cursor: pointer;
 }
 
-#overlay {
-  z-index: -1;
+#contact-overlay {
+  background: rgb(51, 55, 69, 0.7);
+  width: 100%;
+  height: 100%;
   position: fixed;
-  width: 90%;
-  height: 6em;
-  background: rgb(0, 0, 0, 0.6);
-  border-radius: 5em;
+  top: 0;
+  z-index: -2;
 }
 /* contact page css rules ends here */
 
@@ -407,6 +407,21 @@ header {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+.active {
+  background: #fde12d;
+  width: 150px;
+  height: 40px;
+  padding: 0.5em 0;
+  text-align: center;
+  color: #052f5f !important;
+}
+
+.nav-two,
+.home-image {
+  display: none;
+}
+
 /* tooltips for downloading resume ends*/
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -478,13 +493,16 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
-    /* padding: 0.5em; */
+    height: auto;
   }
 
   /* .list-item:not(:last-child) {
     border-right: 3px solid #fde12d;
   } */
+
+  .main-text {
+    margin-top: 8%;
+  }
 
   .main-text h1 {
     font-size: 1.5em;
@@ -505,6 +523,7 @@ header {
     height: 200px;
     margin: 0 auto;
     margin-top: 5em;
+    display: block;
   }
 
   .home-image img {
@@ -522,26 +541,101 @@ header {
     font-size: 4em;
   }
 
-  .about-text h2 {
+  .about-text h2,
+  .project-text h2 {
     font-size: 1.4em;
+    line-height: 1.5em;
+    word-break: break-all;
+    text-align: justify;
   }
 
-  .about-text p {
+  .about-text p,
+  .project-text p,
+  .project-text ul li a {
     font-size: 1.3em;
     line-height: 1.5em;
+    display: inline-block;
   }
 
-  .project-overlay {
-    background: rgb(51, 55, 69, 0.5);
+  .project-overlay,
+  #contact-overlay {
+    background: rgb(51, 55, 69, 0.7);
     width: 100%;
     height: 100%;
     position: fixed;
     z-index: -2;
   }
+
+  .project-text ul {
+    font-size: 1.3em;
+    width: 30%;
+    height: auto;
+  }
+
+  #contact-body {
+    height: 100vh;
+  }
+
+  .contact-main {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .contact-text {
+    margin-top: 30%;
+    padding: 2em 0;
+    font-size: 1.5em;
+    font-weight: 800;
+    letter-spacing: 0.3em;
+  }
+
+  .contact-footer {
+    padding-bottom: 1em;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {...} */
+@media only screen and (min-width: 1024px) {
+  .nav-two {
+    width: 80%;
+  }
+
+  .nav-two ul {
+    width: 100%;
+  }
+
+  .nav-two ul li a {
+    width: 100%;
+    /* background: red; */
+    padding: 1em 0;
+    font-size: 1.5em;
+  }
+
+  .nav-two ul li a:hover {
+    padding: 1em 0;
+  }
+
+  .contact-text {
+    margin-top: 20%;
+    font-size: 1.2em;
+  }
+
+  .fa-3x {
+    font-size: 3em;
+  }
+
+  .contact-footer ul,
+  .about-footer ul,
+  .project-footer ul,
+  .home-footer ul {
+    width: 30%;
+  }
+
+  .active {
+    padding: 1em 0;
+    height: auto;
+  }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1200px) {...} */
