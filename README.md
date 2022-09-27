@@ -28,10 +28,12 @@ About page discuses the following:
 
 ## Projects.
 
-The project page discuses **Why join Founders and Coders Skills Bootcamp programme.** and _projects_ developed during the learning process.
+The project page discuses **Why join Founders and Coders Skills Bootcamp programme** and _projects_ developed during the learning process.
 
 ## Contact.
 
 The contact page contains the list of social networks that I have accounts on.
 
-It's safe to say that this application can be call > The Mirror of My Life.
+It's safe to say that this application can be call
+
+> The Mirror of My Life.
