@@ -418,7 +418,8 @@ header {
 }
 
 .nav-two,
-.home-image {
+.home-image,
+.resume {
   display: none;
 }
 
@@ -443,7 +444,8 @@ header {
     display: none;
   }
 
-  .nav-two {
+  .nav-two,
+  .resume {
     display: block;
   }
 
@@ -592,6 +594,50 @@ header {
   .contact-footer {
     padding-bottom: 1em;
   }
+
+  .resume {
+    background: #fff;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+
+  .download-cv {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.8em;
+  }
+
+  .download-cv span {
+    margin-top: 0.5em;
+  }
+
+  .download-cv span,
+  .download-cv a {
+    display: inline-block;
+    padding: 1em 0;
+    color: #333745;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .hobby-text {
+    margin-bottom: 1em;
+  }
+
+  .home-footer ul,
+  .about-footer ul,
+  .project-footer ul,
+  .contact-footer ul {
+    width: 60%;
+  }
+
+  .home-footer ul li a,
+  .about-footer ul li a,
+  .project-footer ul li a,
+  .contact-footer ul li a {
+    font-size: 0.7em;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -634,6 +680,10 @@ header {
   .active {
     padding: 1em 0;
     height: auto;
+  }
+
+  .resume {
+    width: 20%;
   }
 }
 
