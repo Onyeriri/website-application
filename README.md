@@ -34,6 +34,6 @@ The project page discuses **Why join Founders and Coders Skills Bootcamp program
 
 The contact page contains the list of social networks that I have accounts on.
 
-It's safe to say that this application can be call
+It's safe to say that this application can be called
 
 > The Mirror of My Life.
