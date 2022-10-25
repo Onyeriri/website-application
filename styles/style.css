@@ -487,21 +487,6 @@ header {
     letter-spacing: 0.2em;
   }
 
-  .nav-two ul li a:hover {
-    background: #fde12d;
-    /* border-radius: 50%; */
-    color: #333745;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-  }
-
-  /* .list-item:not(:last-child) {
-    border-right: 3px solid #fde12d;
-  } */
-
   .main-text {
     margin-top: 8%;
   }
