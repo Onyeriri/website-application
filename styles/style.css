@@ -428,6 +428,11 @@ header {
   margin-bottom: 2em;
 }
 
+.center-heading p > a {
+  color: #fde12d;
+  text-decoration: underline;
+}
+
 /* tooltips for downloading resume ends*/
 
 /* Medium devices (landscape tablets, 768px and up) */
