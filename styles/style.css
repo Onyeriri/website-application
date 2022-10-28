@@ -50,7 +50,7 @@ td {
   line-height: 1.5em;
   font-size: 88%;
   text-align: justify;
-  background-image: url("/images/pexels-joyston-judah-933054.jpg");
+  background-image: url("../images/pexels-joyston-judah-933054.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -297,7 +297,7 @@ header {
 }
 /* about page css rules starts here */
 #about-body {
-  background-image: url("/images/pexels-miguel-á-padriñán-1111318.jpg");
+  background-image: url("../images/pexels-miguel-á-padriñán-1111318.jpg");
 }
 
 .about-text,
@@ -322,7 +322,7 @@ header {
 
 /* project page css rules starts here */
 #project-body {
-  background-image: url("/images/pexels-pixabay-289618.jpg");
+  background-image: url("../images/pexels-pixabay-289618.jpg");
 }
 
 .project-text ul {
@@ -351,7 +351,7 @@ header {
 
 /* contact page css rules starts here */
 #contact-body {
-  background-image: url("/images/pexels-pixabay-269583.jpg");
+  background-image: url("../images/pexels-pixabay-269583.jpg");
 }
 
 .contact-main {
