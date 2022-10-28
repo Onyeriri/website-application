@@ -372,8 +372,9 @@ header {
   cursor: pointer;
 }
 
-#contact-overlay {
-  background: rgb(51, 55, 69, 0.7);
+#contact-overlay,
+#project-overlay {
+  background: rgb(51, 55, 69, 0.55);
   width: 100%;
   height: 100%;
   position: fixed;
