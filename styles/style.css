@@ -209,8 +209,7 @@ header {
   color: red;
 }
 
-.nav-two,
-.hide-text {
+.nav-two {
   display: none;
 }
 
